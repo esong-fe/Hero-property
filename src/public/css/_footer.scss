@@ -1,0 +1,21 @@
+@import "variables";
+
+.yx-footer {
+
+  .container {
+    padding: 20px 0;
+    border-top: 1px solid #dadada;
+  }
+
+  .yx-footer-links {
+    div {
+      padding: 0 20px;
+      border-right: 1px solid #cdcdcd;
+      color: $header-and-footer-color;
+
+      a {
+        color: $header-and-footer-color;
+      }
+    }
+  }
+}
