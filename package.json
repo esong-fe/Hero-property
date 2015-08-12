@@ -1,0 +1,17 @@
+{
+  "name" : "yx-property" ,
+  "version" : "0.0.1" ,
+  "description" : "英雄集团的海文物业网站" ,
+  "author" : {
+    "name" : "Milk Lee" ,
+    "email" : "milk.lee@qq.com"
+  } ,
+  "devDependencies" : {
+    "gulp" : "^3.9.0" ,
+    "gulp-sass" : "^2.0.4" ,
+    "gulp-babel" : "^5.2.0" ,
+    "gulp-watch" : "^4.3.4" ,
+    "del" : "^1.2.0"
+  } ,
+  "license" : "ISC"
+}
