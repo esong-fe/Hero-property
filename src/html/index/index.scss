@@ -1,0 +1,22 @@
+.yx-index-1 {
+  background-color: #fff;
+  h3 {
+    color: #32659a;
+    padding: 65px 0;
+    margin: 0;
+  }
+
+  .container {
+    @media (min-width: 1200px) {
+      width: 3 * 308px;
+    }
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .col-sm-4 {
+    padding: 0;
+  }
+}
