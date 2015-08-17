@@ -23,23 +23,59 @@ h3 {
     padding: 0;
   }
 
-  .yx-square {
-    color: #fff;
+  $square-width: 308px;
+
+  .yx-square-map {
+    width: $square-width * 3;
+  }
+
+  .yx-square-item {
+    width: $square-width;
+    height: $square-width;
+    float: left;
+  }
+
+  %p {
+    padding: 25px 40px;
+    position: relative;
+    &, & h3, & a {
+      color: #fff;
+    }
+    & h3 {
+      padding: 45px 0;
+    }
+    & a {
+      position: absolute;
+      bottom: 25px;
+      left: 40px;
+      padding: 10px 20px;
+      border: 1px solid #fff;
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 
   .yx-in-1 {
+    @extend %p;
     background-color: #89a45f;
   }
   .yx-in-2 {
+    @extend %p;
     background-color: #336799;
   }
   .yx-in-3 {
+    @extend %p;
     background-color: #ab952f;
   }
   .yx-in-4 {
+    @extend %p;
     background-color: #aa9f99;
   }
   .yx-in-5 {
+    @extend %p;
     background-color: #3398cc;
   }
 }
