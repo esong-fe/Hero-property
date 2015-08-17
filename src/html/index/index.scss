@@ -1,10 +1,13 @@
+$common-padding: 65px;
+h3 {
+  padding: $common-padding 0;
+  margin: 0;
+  color: #32659a;
+}
+
 .yx-index-1 {
   background-color: #fff;
-  h3 {
-    color: #32659a;
-    padding: 65px 0;
-    margin: 0;
-  }
+  padding-bottom: 130px;
 
   .container {
     @media (min-width: 1200px) {
@@ -18,5 +21,52 @@
 
   .col-sm-4 {
     padding: 0;
+  }
+
+  .yx-square {
+    color: #fff;
+  }
+
+  .yx-in-1 {
+    background-color: #89a45f;
+  }
+  .yx-in-2 {
+    background-color: #336799;
+  }
+  .yx-in-3 {
+    background-color: #ab952f;
+  }
+  .yx-in-4 {
+    background-color: #aa9f99;
+  }
+  .yx-in-5 {
+    background-color: #3398cc;
+  }
+}
+
+.yx-index-2 {
+  $p-padding: 30px;
+  background-color: #00adef;
+  color: #fff;
+  padding-bottom: $common-padding - $p-padding;
+  h3 {
+    color: #fff;
+  }
+  p {
+    line-height: 1.6;
+    margin-bottom: $p-padding;
+  }
+}
+
+.yx-index-3 {
+  .img-responsive {
+    width: 100%;
+  }
+  .yx-news-content {
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+  }
+  p {
+    color: #666;
   }
 }
