@@ -1,0 +1,70 @@
+h3 {
+  padding: 65px 0;
+  margin: 0;
+  color: #32659a; }
+
+.yx-index-1 {
+  background-color: #fff;
+  padding-bottom: 130px; }
+  @media (min-width: 1200px) {
+    .yx-index-1 .container {
+      width: 924px; } }
+  .yx-index-1 .row {
+    margin: 0; }
+  .yx-index-1 .col-sm-4 {
+    padding: 0; }
+  .yx-index-1 .yx-square-map {
+    width: 924px; }
+  .yx-index-1 .yx-square-item {
+    width: 308px;
+    height: 308px;
+    float: left; }
+  .yx-index-1 .yx-in-1, .yx-index-1 .yx-in-2, .yx-index-1 .yx-in-3, .yx-index-1 .yx-in-4, .yx-index-1 .yx-in-5 {
+    padding: 25px 40px;
+    position: relative; }
+    .yx-index-1 .yx-in-1, .yx-index-1 .yx-in-2, .yx-index-1 .yx-in-3, .yx-index-1 .yx-in-4, .yx-index-1 .yx-in-5, .yx-index-1 .yx-in-1 h3, .yx-index-1 .yx-in-2 h3, .yx-index-1 .yx-in-3 h3, .yx-index-1 .yx-in-4 h3, .yx-index-1 .yx-in-5 h3, .yx-index-1 .yx-in-1 a, .yx-index-1 .yx-in-2 a, .yx-index-1 .yx-in-3 a, .yx-index-1 .yx-in-4 a, .yx-index-1 .yx-in-5 a {
+      color: #fff; }
+    .yx-index-1 .yx-in-1 h3, .yx-index-1 .yx-in-2 h3, .yx-index-1 .yx-in-3 h3, .yx-index-1 .yx-in-4 h3, .yx-index-1 .yx-in-5 h3 {
+      padding: 45px 0; }
+    .yx-index-1 .yx-in-1 a, .yx-index-1 .yx-in-2 a, .yx-index-1 .yx-in-3 a, .yx-index-1 .yx-in-4 a, .yx-index-1 .yx-in-5 a {
+      position: absolute;
+      bottom: 25px;
+      left: 40px;
+      padding: 10px 20px;
+      border: 1px solid #fff;
+      display: inline-block; }
+      .yx-index-1 .yx-in-1 a:hover, .yx-index-1 .yx-in-2 a:hover, .yx-index-1 .yx-in-3 a:hover, .yx-index-1 .yx-in-4 a:hover, .yx-index-1 .yx-in-5 a:hover {
+        text-decoration: none; }
+  .yx-index-1 .yx-in-1 {
+    background-color: #89a45f; }
+  .yx-index-1 .yx-in-2 {
+    background-color: #336799; }
+  .yx-index-1 .yx-in-3 {
+    background-color: #ab952f; }
+  .yx-index-1 .yx-in-4 {
+    background-color: #aa9f99; }
+  .yx-index-1 .yx-in-5 {
+    background-color: #3398cc; }
+
+.yx-index-2 {
+  background-color: #00adef;
+  color: #fff;
+  padding-bottom: 35px; }
+  .yx-index-2 h3 {
+    color: #fff; }
+  .yx-index-2 p {
+    line-height: 1.6;
+    margin-bottom: 30px; }
+
+.yx-index-3 {
+  padding-bottom: 120px; }
+  .yx-index-3 .img-responsive {
+    width: 100%; }
+  .yx-index-3 .yx-news-content {
+    border: 1px solid #d3d3d3;
+    padding: 15px; }
+  .yx-index-3 p {
+    color: #666; }
+
+.yx-news-container {
+  margin-bottom: 40px; }

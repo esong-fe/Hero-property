@@ -3,4 +3,3 @@ src/**/*.js
 src/**/*.css
 !src/vendor/**/*.css
 node_modules/
-dist/
