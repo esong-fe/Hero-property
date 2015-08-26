@@ -130,6 +130,12 @@ h3 {
   p {
     color: #666;
   }
+
+  .col-sm-4 {
+    @media (max-width: 991px) {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 .yx-news-container {
