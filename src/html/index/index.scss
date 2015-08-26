@@ -9,40 +9,57 @@ h3 {
   background-color: #fff;
   padding-bottom: 130px;
 
-  .container {
-    @media (min-width: 1200px) {
-      width: 3 * 308px;
+  // 九宫格
+  @mixin map($square-width,$one-line-count) {
+    .yx-square-map {
+      width: $square-width * $one-line-count;
+    }
+
+    .yx-square-item {
+      width: $square-width;
+      height: $square-width;
     }
   }
 
-  .row {
-    margin: 0;
+  @media (min-width: 992px) {
+    @include map(308px, 3);
   }
 
-  .col-sm-4 {
-    padding: 0;
+  @media (max-width: 991px) {
+    @include map(145px, 2);
   }
 
-  $square-width: 308px;
-
-  .yx-square-map {
-    width: $square-width * 3;
+  img {
+    width: 100%;
   }
+
+  //.row {
+  //  margin: 0;
+  //}
+  //
+  //.col-sm-4 {
+  //  padding: 0;
+  //}
 
   .yx-square-item {
-    width: $square-width;
-    height: $square-width;
     float: left;
   }
 
   %p {
     padding: 25px 40px;
+    @media (max-width: 991px) {
+      padding: 5px 10px;
+    }
     position: relative;
     &, & h3, & a {
       color: #fff;
     }
     & h3 {
       padding: 45px 0;
+      @media (max-width: 991px) {
+        padding: 10px 0;
+        font-size: 20px;
+      }
     }
     & a {
       position: absolute;
@@ -51,6 +68,12 @@ h3 {
       padding: 10px 20px;
       border: 1px solid #fff;
       display: inline-block;
+
+      @media (max-width: 991px) {
+        bottom: 5px;
+        left: 10px;
+        padding: 3px 6px;
+      }
 
       &:hover {
         text-decoration: none;
@@ -96,7 +119,7 @@ h3 {
 
 .yx-index-3 {
   padding-bottom: 120px;
-  
+
   .img-responsive {
     width: 100%;
   }
