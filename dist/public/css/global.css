@@ -25,8 +25,16 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #c6c4c5; }
+  @media (max-width: 991px) {
+    .yx-header a.pull-left {
+      width: 100%;
+      text-align: center; } }
   .yx-header nav {
     margin-top: 22px; }
+    @media (max-width: 991px) {
+      .yx-header nav {
+        width: 100%;
+        text-align: center; } }
     .yx-header nav div {
       padding: 0 30px;
       border-right: 1px solid #d9d9d9; }
@@ -34,6 +42,13 @@ body {
         border-right: none; }
       .yx-header nav div a {
         color: #666; }
+      @media (max-width: 991px) {
+        .yx-header nav div {
+          width: 25%;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          border-right: none;
+          text-align: center; } }
 
 .yx-banner {
   height: 276px;
@@ -49,10 +64,29 @@ body {
 .yx-footer .container {
   padding: 20px 0;
   border-top: 1px solid #dadada; }
+  @media (max-width: 991px) {
+    .yx-footer .container {
+      position: relative; }
+      .yx-footer .container span {
+        position: absolute;
+        right: 15px;
+        bottom: 25px; } }
+
+@media (max-width: 991px) {
+  .yx-footer .yx-footer-links {
+    width: 100%; } }
 
 .yx-footer .yx-footer-links div {
   padding: 0 20px;
   border-right: 1px solid #cdcdcd;
   color: #666; }
+  .yx-footer .yx-footer-links div:nth-last-child(2), .yx-footer .yx-footer-links div:last-child {
+    border-right: none; }
+  @media (max-width: 991px) {
+    .yx-footer .yx-footer-links div {
+      padding: 0 0;
+      margin: 5px 0;
+      width: 20%;
+      text-align: center; } }
   .yx-footer .yx-footer-links div a {
     color: #666; }
