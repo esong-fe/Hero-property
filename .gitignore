@@ -1,5 +1,1 @@
-src/**/*.js
-!src/vendor/**/*.js
-src/**/*.css
-!src/vendor/**/*.css
-node_modules/
+/node_modules/
