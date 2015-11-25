@@ -84,6 +84,8 @@
                   <img class="img-responsive" src="images/cn/gg1.jpg" alt="图片" />
                   <img class="img-responsive" src="images/cn/gg2.jpg" alt="图片" />
                   <img class="img-responsive" src="images/cn/gg3.jpg" alt="图片" />
+
+                  <div id="container" style="height:480px"></div>
                 </section>
               </div>
             </div>
@@ -106,5 +108,12 @@
         </div>
       </div>
     </footer>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=6cec5960f1a964af8f77d71188c13a59"></script>
+    <script>
+      var map = new BMap.Map( "container" );
+      var point = new BMap.Point( 121.440355 , 31.218043 );
+      map.centerAndZoom( point , 18 );
+      map.addOverlay( new BMap.Marker( point ) );
+    </script>
   </body>
 </html>
