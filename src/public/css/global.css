@@ -111,5 +111,23 @@ body {
 .yx-footer .yx-footer-links div a {
   color: #666; }
 
+#baidu-map {
+  height: 480px;
+  margin-top: 35px;
+}
 
+#baidu-map, #baidu-map * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#baidu-map img {
+  max-width: none;
+  margin-top: 0;
+}
+
+#baidu-map input[type=button] {
+  padding: 0;
+}
 

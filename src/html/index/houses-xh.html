@@ -82,6 +82,8 @@
                   <h4>斜土路商务楼</h4>
                   <img class="img-responsive" src="images/xh/xt1.jpg" alt="图片" />
                   <img class="img-responsive" src="images/xh/xt2.jpg" alt="图片" />
+
+                  <div id="baidu-map"></div>
                 </section>
               </div>
             </div>
@@ -104,5 +106,16 @@
         </div>
       </div>
     </footer>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=6cec5960f1a964af8f77d71188c13a59"></script>
+    <script>
+      var map = new BMap.Map( "baidu-map" );
+      var myGeo = new BMap.Geocoder();
+      myGeo.getPoint( "上海市徐汇区斜土路海文商务楼" , function ( point ) {
+        if ( point ) {
+          map.centerAndZoom( point , 18 );
+          map.addOverlay( new BMap.Marker( point ) );
+        }
+      } , "上海市" );
+    </script>
   </body>
 </html>
