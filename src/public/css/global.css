@@ -131,3 +131,71 @@ body {
   padding: 0;
 }
 
+#contact {
+  /*width: 66px;*/
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 100px;
+  font-size: 16px;
+}
+
+#contact .clear {
+  display: block;
+  height: 62px;
+}
+
+#contact b, #contact i {
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#contact i {
+  display: inline-block;
+  width: 65px;
+  height: 62px;
+  background-image: url(../images/newIcon1.png);
+}
+
+#contact .back i {
+  background-position: -320px -444px;
+}
+
+#contact .qq i {
+  background-position: -162px -446px;
+}
+
+#contact .mail i {
+  background-position: -242px -445px;
+}
+
+#contact .phone i {
+  background-position: -397px -444px;
+}
+
+#contact .mail a {
+  color: #898989;
+  font-size: 14px;
+}
+
+#contact b {
+  /*display: inline-block;*/
+  overflow: hidden;
+  opacity: 0;
+  width: 0;
+  padding-top: 8px;
+  height: 54px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #ededed;
+  color: #898989;
+}
+
+#contact .qq b, #contact .mail b {
+  position: absolute;
+  /*font-size: 12px;*/
+  /*line-height: 18px;*/
+  height: 74px;
+}
+
