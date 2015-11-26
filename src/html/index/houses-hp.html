@@ -84,27 +84,8 @@
                   <img class="img-responsive" src="images/hp/hjj1.jpg" alt="图片" />
                   <img class="img-responsive" src="images/hp/hjj2.jpg" alt="图片" />
                   <img class="img-responsive" src="images/hp/hjj3.jpg" alt="图片" />
-                </section>
-                <section>
-                  <h4>合肥路商务楼</h4>
 
-                  <p> 合肥路（黄浦区）</p>
-
-                  <p> 海文商务楼位于合肥路315号，近复兴中路淡水路，闹中取静，交通便捷。</p>
-
-                  <p> 融合传统与现代，坐享新天地时尚繁华；览海派雅致风情，共享SOHO复兴资源。海文商务楼突显性价比！</p>
-
-                  <P> 公共交通有地铁10号线、9号线、24、17、730路等。</P>
-
-                  <h3>联系方式</h3>
-
-                  <p>合肥路：</p>
-
-                  <div>邮箱：
-                    <a href="dy@hero.com.cn"> dy@hero.com.cn 戴燕 </a></div>
-                  <p>电话：53963904</p>
-                  <img class="img-responsive" src="images/hp/hf1.jpg" alt="图片" />
-                  <img class="img-responsive" src="images/hp/hf2.jpg" alt="图片" />
+                  <div id="baidu-map"></div>
                 </section>
               </div>
             </div>
@@ -127,5 +108,16 @@
         </div>
       </div>
     </footer>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=6cec5960f1a964af8f77d71188c13a59"></script>
+    <script>
+      var map = new BMap.Map( "baidu-map" );
+      var myGeo = new BMap.Geocoder();
+      myGeo.getPoint( "上海市黄浦区黄家阙路92号" , function ( point ) {
+        if ( point ) {
+          map.centerAndZoom( point , 20 );
+          map.addOverlay( new BMap.Marker( point ) );
+        }
+      } , "上海市" );
+    </script>
   </body>
 </html>
