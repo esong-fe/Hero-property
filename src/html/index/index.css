@@ -1,18 +1,18 @@
 h3 {
-  padding: 65px 0;
+  padding: 10px 20px;
   margin: 0;
   color: #32659a; }
 
-.yx-index-1 { padding-top: 90px;
+.yx-index-1 {
   background-color: #fff;
-  padding-bottom: 130px; }
+ }
 
 @media (min-width: 992px) {
   .yx-index-1 .yx-square-map {
-    width: 1140px; }
+    width: 1190px; }
 
   .yx-index-1 .yx-square-item {
-    width: 380px;
+    width: 396.66px;
     height: 380px; }
 }
 
@@ -29,7 +29,7 @@ h3 {
   width: 100%; }
 
 .yx-index-1 .yx-square-item {
-  float: left; }
+  float: left;   overflow: hidden }
 
 .yx-index-1 .yx-in-1, .yx-index-1 .yx-in-2, .yx-index-1 .yx-in-3, .yx-index-1 .yx-in-4, .yx-index-1 .yx-in-5 {
   padding: 25px 40px;
@@ -124,3 +124,9 @@ h3 {
 
 .he {
   height: 100px; }
+.container{
+  width: 1190px;}
+.h2{
+  padding:10px 20px 10px 30px;font-family:"Microsoft YaHei";font-weight: bold }
+.ih4{width:1070px;
+  padding-top: 60px;}
