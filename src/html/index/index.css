@@ -124,9 +124,12 @@ h3 {
 
 .he {
   height: 100px; }
+@media (min-width: 1200px){
 .container{
   width: 1190px;}
+}
 .h2{
-  padding:10px 20px 10px 30px;font-family:"Microsoft YaHei";font-weight: bold }
-.ih4{width:1070px;
+  width: 20%;
+  ;font-family:"Microsoft YaHei";font-weight: bold }
+.ih4{width:80%;
   padding-top: 60px;}
