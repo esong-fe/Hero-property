@@ -64,8 +64,13 @@ body {
 .yx-banner {
   height: 276px;
   width: 1190px;float:right;
-
   background: url("../../html/index/banner-222.jpg") no-repeat center center; }
+.yx-banner-1{
+  height: 276px;
+  width: 1190px;float:right;
+  margin-bottom: 30px;
+  background: url("../../html/index/banner-222.jpg") no-repeat center center; }
+
 
 .yx-banner h3 {
   display: inline-block;
