@@ -3,7 +3,7 @@ h3 {
   margin: 0;
   color: #32659a; }
 
-.yx-index-1 { padding-top: 90px;
+.yx-index-1 { padding-top: 40px;
   background-color: #fff;
   padding-bottom: 130px; }
 
@@ -122,5 +122,5 @@ h3 {
   padding-bottom: 130px
 }
 
-.he {
-  height: 100px; }
+.he{padding-top: 20px}
+.he1{padding-top: 70px}
